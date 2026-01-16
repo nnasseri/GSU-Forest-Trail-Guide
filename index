@@ -1,12 +1,1 @@
-/
-  index.html
-  assets/
-    style.css
-    logo.png        (optional)
-  pamphlets/
-    wildlife_mammals.pdf
-    birds_common.pdf
-    trees_id_guide.pdf
-    spring_wildflowers.pdf
-  data/
-    pamphlets.json  (optional; for auto-listing/filtering)
+
