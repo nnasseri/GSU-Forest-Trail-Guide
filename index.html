@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>University Forest Trails</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>University Forest Trails</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#pamphlets">Pamphlets</a></li>
+        <li><a href="#subscribe" role="button">Subscribe</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section id="map">
+          <hgroup>
+            <h2>Explore the Trails</h2>
+            <h3>Interactive Map of the 400-Acre Forest</h3>
+          </hgroup>
+          <p>Use the interactive map below to view hiking trails across our university's forest tract. Click on trail markers for more information.</p>
+          <figure>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1EhA2Nb5dwS4UJD3ErtLXIDCkdPBQpl4" width="100%" height="480"></iframe>
+            <figcaption><a href="https://www.google.com/maps/d/viewer?mid=1EhA2Nb5dwS4UJD3ErtLXIDCkdPBQpl4" target="_blank">View Full Map on Google</a></figcaption>
+          </figure>
+          <h3>About the Forest</h3>
+          <p>This 400-acre tract features diverse flora and fauna, making it an ideal location for students, researchers, and nature lovers alike.</p>
+          <h3>Trail Safety</h3>
+          <p>Always stay on marked trails. Be aware of your surroundings and follow Leave No Trace principles.</p>
+        </section>
+
+        <section id="pamphlets">
+          <hgroup>
+            <h2>Digital Pamphlets</h2>
+            <h3>Wildlife and Plant Species</h3>
+          </hgroup>
+          <p>Click or scroll through each pamphlet to learn more about what you might encounter on your hike.</p>
+          <iframe src="https://example.com/sample-pamphlet-1.pdf" width="100%" height="400px"></iframe>
+          <br /><br />
+          <iframe src="https://example.com/sample-pamphlet-2.pdf" width="100%" height="400px"></iframe>
+          <br /><br />
+          <iframe src="https://example.com/sample-pamphlet-3.pdf" width="100%" height="400px"></iframe>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example" id="subscribe">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Stay Updated</h2>
+            <h3>Get trail updates or educational materials</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+            <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required />
+            <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small><a href="#map">Map</a> • <a href="#pamphlets">Pamphlets</a></small>
+    </footer>
+  </body>
+</html>
